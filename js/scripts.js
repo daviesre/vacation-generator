@@ -7,9 +7,9 @@ $(document).ready(function() {
     var food = $("select#food").val();
 
 
-    if (person === "Outgoing" && color === "Red" && food != "Vegetables") {
+    if (person === "Outgoing" && color === "Red" && food === "Meat") {
     $("#volcano").toggle();
-  } else if (person === "Outgoing" && color != "Black" && food === "Sweets") {
+  } else if (person === "Outgoing" && color != "Black" && food != "Meat") {
     $("#nice").toggle();
   } else if (person === "Mysterious" && color != "Red" && food === "Vegetables") {
     $("#tibet").toggle();

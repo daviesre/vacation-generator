@@ -5,3 +5,11 @@
 #volcano, #tibet, #idaho, #vampire, #nice, #space {
   display:none;
 }
+
+.size {
+  width:600px;
+}
+
+.body {
+  background-color:lightblue;
+}
