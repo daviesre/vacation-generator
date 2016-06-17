@@ -8,18 +8,19 @@ $(document).ready(function() {
 
 
     if (person === "Outgoing" && color === "Red" && food === "Meat") {
-    $("#volcano").toggle();
+    $("#volcano").fadeToggle();
   } else if (person === "Outgoing" && color != "Black" && food != "Meat") {
-    $("#nice").toggle();
+    $("#nice").fadeToggle();
   } else if (person === "Mysterious" && color != "Red" && food === "Vegetables") {
-    $("#tibet").toggle();
+    $("#tibet").fadeToggle();
   } else if (person === "Mysterious" && color != "Blue" && food != "Vegetables") {
-    $("#vampire").toggle();
+    $("#vampire").fadeToggle();
   } else if (person === "Average") {
-    $("#idaho").toggle();
+    $("#idaho").fadeToggle();
   } else {
-    $("#space").toggle();
+    $("#space").fadeToggle();
   }
     event.preventDefault();
+    $("#myform")[0].reset();
   });
 });
