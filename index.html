@@ -10,143 +10,138 @@
   </head>
 
   <body>
-  <!-- Pills -->
-  <!-- <ul class="nav nav-tabs">
-    <li role="presentation" class="active"><a href="#">Webpage</a></li>
-    <li role="presentation"><a href="#">Profile</a></li>
-  </ul> -->
-
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div="collapse navbar=collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="aboutme.html">FAQ</a></li>
-        <ul>
-      </div>
-    </div>
-  </div>
-
-    <!-- Jumbotron -->
-    <div class="container">
-      <div class="jumbotron">
-        <center>
-          <h1>Vacation Suggester</h1>
-          <h3 class="font">Where do you want to go in the world?</h3>
-          <h4 class="font">Fill out the survey below and I will suggest somewhere that fits you!</h4>
-        </center>
-      </div>
-    </div>
-
-    <!-- Form -->
-    <form id="vacation">
+  <!-- Navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="form-group">
-          <label for="name">What is your name?</label>
-          <input type="text" class="form-control" id="name" placeholder="Type name here">
+        <div="collapse navbar=collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">Links</a></li>
+          <ul>
         </div>
+      </div>
+    </div>
 
-        <div class="form-group">
-          <label for="location">Where are you from?</label>
-          <input type="text" class="form-control" id="location" placeholder="Type location here">
+      <!-- Jumbotron -->
+      <div class="container">
+        <div class="jumbotron">
+          <center>
+            <h1>Vacation Suggester</h1>
+            <h3 class="font">Where do you want to go in the world?</h3>
+            <h4 class="font">Fill out the survey below and I will suggest somewhere that fits you!</h4>
+          </center>
         </div>
+      </div>
 
-        <div class="form-group">
-          <label for="personality">How would you describe your personality?</label>
-          <select class="form-control" id="person">
-            <option>Outgoing</option>
-            <option>Mysterious</option>
-            <option>Average</option>
-          </select>
+      <!-- Form -->
+      <form id="vacation">
+        <div class="container">
+          <div class="form-group">
+            <label for="name">What is your name?</label>
+            <input type="text" class="form-control" id="name" placeholder="Type name here">
+          </div>
+
+          <div class="form-group">
+            <label for="location">Where are you from?</label>
+            <input type="text" class="form-control" id="location" placeholder="Type location here">
+          </div>
+
+          <div class="form-group">
+            <label for="personality">How would you describe your personality?</label>
+            <select class="form-control" id="person">
+              <option>Outgoing</option>
+              <option>Mysterious</option>
+              <option>Average</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="color">Which of these colors do you like the most?</label>
+            <select class="form-control" id="color">
+              <option>Blue</option>
+              <option>Red</option>
+              <option>Black</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="food">Which kind of food do you like the most?</label>
+            <select class="form-control" id="food">
+              <option>Vegetables</option>
+              <option>Meat</option>
+              <option>Sweets</option>
+            </select>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="Submit" class="btn btn-default btn-lg">Submit</button>
         </div>
+      </form>
 
-        <div class="form-group">
-          <label for="color">Which of these colors do you like the most?</label>
-          <select class="form-control" id="color">
-            <option>Blue</option>
-            <option>Red</option>
-            <option>Black</option>
-          </select>
+    <!-- Hidden Survey Results -->
+    <div id="volcano">
+      <div class="container">
+        <div class="center">
+          <h1>An Erupting Valcano!</h1>
+          <p>Your zest for life has led you to possess a fiery personality. The most logical step for you is to explore an errupting volcano!</p>
+          <p>If you make it out alive you'll have such an interesting story to tell people that surely <em>nobody</em> would ever get tired of. No, really. Keep telling it.</p>
+          <img src ="http://guardianlv.com/wp-content/uploads/2014/06/Volcano-650x433.jpg" alt="An errupting volcano" class="size"/>
         </div>
+      </div>
+    </div>
 
-        <div class="form-group">
-          <label for="food">Which kind of food do you like the most?</label>
-          <select class="form-control" id="food">
-            <option>Vegetables</option>
-            <option>Meat</option>
-            <option>Sweets</option>
-          </select>
+    <div id="tibet">
+      <div class="container">
+        <div class="center">
+          <h1>Tibet...Maybe!</h1>
+          <p>You are clearly too cool for school. You should probably go somewhere where you don't have to talk people. Go ahead, quit your job and become a Buddhist monk like you always threatened to.</p>
+          <p>But be warned. There are very few vegan options for you out there and to make matters worse, the natives obviously don't know as much about Buddhism as you do. Be sure to educate them incessantly.</p>
+          <img src="https://lula.wpengine.com/wp-content/uploads/2015/08/LuLa_Tibet-21.jpg" alt="A Tibetan castle" class="size" />
         </div>
-
-        <!-- Submit Button -->
-        <button type="Submit" class="btn btn-default btn-lg">Submit</button>
-      </div>
-    </form>
-
-  <!-- Hidden Survey Results -->
-  <div id="volcano">
-    <div class="container">
-      <div class="center">
-        <h1>An Erupting Valcano!</h1>
-        <p>Your zest for life has led you to possess a fiery personality. The most logical step for you is to explore an errupting volcano!</p>
-        <p>If you make it out alive you'll have such an interesting story to tell people that surely <em>nobody</em> would ever get tired of. No, really. Keep telling it.</p>
-        <img src ="http://guardianlv.com/wp-content/uploads/2014/06/Volcano-650x433.jpg" alt="An errupting volcano" class="size"/>
       </div>
     </div>
-  </div>
 
-  <div id="tibet">
-    <div class="container">
-      <div class="center">
-        <h1>Tibet...Maybe!</h1>
-        <p>You are clearly too cool for school. You should probably go somewhere where you don't have to talk people. Go ahead, quit your job and become a Buddhist monk like you always threatened to.</p>
-        <p>But be warned. There are very few vegan options for you out there and to make matters worse, the natives obviously don't know as much about Buddhism as you do. Be sure to educate them incessantly.</p>
-        <img src="https://lula.wpengine.com/wp-content/uploads/2015/08/LuLa_Tibet-21.jpg" alt="A Tibetan castle" class="size" />
+    <div id="idaho">
+      <div class="container">
+        <div class="center">
+          <h1>Somewhere in Idaho!</h1>
+          <p>Yeah, I'm not really sure. You're not really interesting. Idaho is a perfect spot for you since you have the personality of a potato. So go there...I guess.</p>
+          <img src="http://www.idahoshippers.org/Potato_Field.jpg" alt="A field of Idaho potatoes" class="size"/>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div id="idaho">
-    <div class="container">
-      <div class="center">
-        <h1>Somewhere in Idaho!</h1>
-        <p>Yeah, I'm not really sure. You're not really interesting. Idaho is a perfect spot for you since you have the personality of a potato. So go there...I guess.</p>
-        <img src="http://www.idahoshippers.org/Potato_Field.jpg" alt="A field of Idaho potatoes" class="size"/>
+    <div id="vampire">
+      <div class="container">
+        <div class="center">
+          <h1>Transylvania!</h1>
+          <p>You sound like a vampire wannabe. You're probably in High School and write a lot of terrible fanfiction. Your favorite word is "sanguine".</p>
+          <p>You also read Dracula once and thought it was boring. Yet, you tell everyone it's your favorite book anyway. You hate Twilight and you spend hours complaining about it on the internet.</p>
+          <img src="http://sun-surfer.com/photos/2013/04/Sibiu-by-night-Transylvania-Romania.jpg" alt="a city in Transylvania" class="size"/>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div id="vampire">
-    <div class="container">
-      <div class="center">
-        <h1>Transylvania!</h1>
-        <p>You sound like a vampire wannabe. You're probably in High School and write a lot of terrible fanfiction. Your favorite word is "sanguine".</p>
-        <p>You also read Dracula once and thought it was boring. Yet, you tell everyone it's your favorite book anyway. You hate Twilight and you spend hours complaining about it on the internet.</p>
-        <img src="http://sun-surfer.com/photos/2013/04/Sibiu-by-night-Transylvania-Romania.jpg" alt="a city in Transylvania" class="size"/>
+    <div id="nice">
+      <div class="container">
+        <div class="center">
+          <h1>Nice!</h1>
+          <p>You seem like a nice person. You should go to Nice, where all the nice people live. There is no crime and everyone drives hovercrafts.</p>
+          <p>Wait... it's pronounced like "niece"? Oh... Nevermind.</p>
+          <img src="http://www.reneeapproximately.com/wp-content/uploads/2014/12/IMG_4572.jpg" alt="city of Nice" class="size" />
+        </div>
       </div>
     </div>
-  </div>
 
-  <div id="nice">
-    <div class="container">
-      <div class="center">
-        <h1>Nice!</h1>
-        <p>You seem like a nice person. You should go to Nice, where all the nice people live. There is no crime and everyone drives hovercrafts.</p>
-        <p>Wait... it's pronounced like "niece"? Oh... Nevermind.</p>
-        <img src="http://www.reneeapproximately.com/wp-content/uploads/2014/12/IMG_4572.jpg" alt="city of Nice" class="size" />
+    <div id="space">
+      <div class="container">
+        <div class="center">
+          <h1>Space!</h1>
+          <p>You are an usual person who is hard to define. Return back to your alien homeworld, weirdo.</p>
+          <img src="http://entropymag.org/wp-content/uploads/2014/10/outer-space-wallpaper-pictures.jpg" alt="Void of space" class="size"/>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div id="space">
-    <div class="container">
-      <div class="center">
-        <h1>Space!</h1>
-        <p>You are an usual person who is hard to define. Return back to your alien homeworld, weirdo.</p>
-        <img src="http://entropymag.org/wp-content/uploads/2014/10/outer-space-wallpaper-pictures.jpg" alt="Void of space" class="size"/>
-      </div>
-    </div>
-  </div>
 
   </body>
 </html>
