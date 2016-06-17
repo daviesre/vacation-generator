@@ -1,11 +1,9 @@
 $(document).ready(function() {
   $("form#vacation").submit(function(event) {
 
-
     var person = $("select#person").val();
     var color = $("select#color").val();
     var food = $("select#food").val();
-
 
     if (person === "Outgoing" && color === "Red" && food === "Meat") {
     $("#volcano").fadeToggle();

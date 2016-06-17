@@ -1,7 +1,5 @@
-
-
 .center {
-  text-align:center;
+  text-align: center;
 }
 
 #volcano, #tibet, #idaho, #vampire, #nice, #space {
@@ -15,6 +13,13 @@
 }
 
 .jumbotron {
-  background-color:lightblue;
+  background-color:#428bca;
   margin-top:50px;
+  color:white;
+  font-family:sans-serif;
+}
+
+.font {
+  font-family:serif;
+  color:black;
 }
