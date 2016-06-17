@@ -27,7 +27,7 @@ body {
 
 .jumbotron {
   background-color: gray;
-  margin-top:50px;
+  margin-top:100px;
   color:white;
   font-family:sans-serif;
 }
@@ -35,4 +35,8 @@ body {
 .font {
   font-family:serif;
   color:black;
+}
+
+.btn {
+  border-color:black;
 }
