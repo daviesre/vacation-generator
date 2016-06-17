@@ -1,19 +1,32 @@
+body {
+  background-image: url("http://designrfix.com/wp-content/uploads/2013/01/Patterns-free-2013-jan-17.jpg");
+}
+
 .center {
   text-align: center;
 }
 
 #volcano, #tibet, #idaho, #vampire, #nice, #space {
   display:none;
+  font-family:sans-serif;
+}
+
+#space {
+  display:none;
+  font-family:monospace;
 }
 
 .size {
   width:600px;
   margin-top:15px;
   margin-bottom:25px;
+  border: 2px solid gray;
+  padding: 4px;
+  background-color:gray;
 }
 
 .jumbotron {
-  background-color:#428bca;
+  background-color: gray;
   margin-top:50px;
   color:white;
   font-family:sans-serif;

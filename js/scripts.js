@@ -19,6 +19,6 @@ $(document).ready(function() {
     $("#space").fadeToggle();
   }
     event.preventDefault();
-    $("#myform")[0].reset();
+
   });
 });
