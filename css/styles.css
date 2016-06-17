@@ -1,3 +1,5 @@
+
+
 .center {
   text-align:center;
 }
@@ -8,8 +10,11 @@
 
 .size {
   width:600px;
+  margin-top:15px;
+  margin-bottom:25px;
 }
 
 .jumbotron {
   background-color:lightblue;
+  margin-top:50px;
 }
