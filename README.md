@@ -18,7 +18,7 @@ Does not clear previous data after a resubmit.
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+If you have any questions, please contact me at russdavies392@gmail.com
 
 ## Technologies Used
 
