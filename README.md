@@ -11,6 +11,7 @@ This helps the user find a vacation right for them. After selecting different ch
 ## Setup/Installation Requirements
 
 * Clone this repository
+* Go down into the directory and open with any web browser of your choice.
 
 ## Known Bugs
 
